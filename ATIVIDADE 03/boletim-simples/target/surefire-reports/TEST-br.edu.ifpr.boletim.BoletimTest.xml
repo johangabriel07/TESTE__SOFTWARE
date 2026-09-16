@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.edu.ifpr.boletim.BoletimTest" time="0.084" tests="5" errors="0" skipped="0" failures="0" flakes="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\johan\Downloads\boletim-simples\target\test-classes;C:\Users\johan\Downloads\boletim-simples\target\classes;C:\Users\johan\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.4\junit-jupiter-5.11.4.jar;C:\Users\johan\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.4\junit-jupiter-api-5.11.4.jar;C:\Users\johan\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\johan\.m2\repository\org\junit\platform\junit-platform-commons\1.11.4\junit-platform-commons-1.11.4.jar;C:\Users\johan\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\johan\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.4\junit-jupiter-params-5.11.4.jar;C:\Users\johan\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.4\junit-jupiter-engine-5.11.4.jar;C:\Users\johan\.m2\repository\org\junit\platform\junit-platform-engine\1.11.4\junit-platform-engine-1.11.4.jar;"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Users\johan\.jdks\ms-25.0.3\bin"/>
+    <property name="sun.java.command" value="C:\Users\johan\AppData\Local\Temp\surefire7166229398324265507\surefirebooter-20260910201146158_3.jar C:\Users\johan\AppData\Local\Temp\surefire7166229398324265507 2026-09-10T20-11-46_002-jvmRun1 surefire-20260910201146158_1tmp surefire_0-20260910201146158_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\johan\Downloads\boletim-simples\target\test-classes;C:\Users\johan\Downloads\boletim-simples\target\classes;C:\Users\johan\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.4\junit-jupiter-5.11.4.jar;C:\Users\johan\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.4\junit-jupiter-api-5.11.4.jar;C:\Users\johan\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\johan\.m2\repository\org\junit\platform\junit-platform-commons\1.11.4\junit-platform-commons-1.11.4.jar;C:\Users\johan\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\johan\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.4\junit-jupiter-params-5.11.4.jar;C:\Users\johan\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.4\junit-jupiter-engine-5.11.4.jar;C:\Users\johan\.m2\repository\org\junit\platform\junit-platform-engine\1.11.4\junit-platform-engine-1.11.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\johan"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="C:\Users\johan\.jdks\ms-25.0.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\johan\Downloads\boletim-simples"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\johan\AppData\Local\Temp\surefire7166229398324265507\surefirebooter-20260910201146158_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.3+9-LTS"/>
+    <property name="user.name" value="johan"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-13877124"/>
+    <property name="localRepository" value="C:\Users\johan\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\johan\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2025.1.4.1"/>
+    <property name="java.version" value="25.0.3"/>
+    <property name="user.dir" value="C:\Users\johan\Downloads\boletim-simples"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\johan\.jdks\ms-25.0.3\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\johan\Downloads\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64ucrt-12.0.0-r1\mingw64\bin;C:\msys64\mingw64\bin;C:\Users\johan\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\johan\AppData\Local\Programs\Python\Python313\;C:\Users\johan\AppData\Local\Programs\Python\Launcher\;C:\Users\johan\AppData\Local\Microsoft\WindowsApps;C:\Users\johan\AppData\Roaming\npm;C:\Users\johan\AppData\Local\JetBrains\PyCharm 2025.1.1.1\bin;;C:\Users\johan\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1.4.1\bin;;C:\Users\johan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\johan\AppData\Local\Programs\DockerDesktop\resources\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="25.0.3+9-LTS"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="deveContarQuantidadeDeAprovados" classname="br.edu.ifpr.boletim.BoletimTest" time="0.041"/>
+  <testcase name="deveReprovarAlunoComMediaDois" classname="br.edu.ifpr.boletim.BoletimTest" time="0.004"/>
+  <testcase name="deveCalcularMediaIgualCinco" classname="br.edu.ifpr.boletim.BoletimTest" time="0.001"/>
+  <testcase name="deveRecuperarNotaAlunoComMediaQuatro" classname="br.edu.ifpr.boletim.BoletimTest" time="0.001"/>
+  <testcase name="deveAprovarAlunoComMediaOito" classname="br.edu.ifpr.boletim.BoletimTest" time="0.001"/>
+</testsuite>
